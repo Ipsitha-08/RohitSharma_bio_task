@@ -3,29 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body>
+    <!-- Form that submits to blog.html -->
     <form action="blog.html" method="POST">
-    <p><h1>LOGIN</h1></p>
-    <p>
-        <h4>Username:</h4>
-        <input 
-             type="text" 
-             placeholder="Enter your username" 
-             name="username" 
-             id="username" required/>
-    </p>
-    <p>
-        <h4>Password:</h4>
-        <input 
-             type="password" 
-             placeholder="Enter your password"
-             name="password"
-             id="password" required/>
-    </p>
-    <a href="reset-password.html">Forgot Password</a>
-    <button type="submit">Login</button>
-</form>
+        <!-- Heading for the form -->
+        <p><h1>LOGIN</h1></p>
+        
+        <!-- Username field -->
+        <p>
+            <h4>Username:</h4>
+            <input 
+                 type="text" 
+                 placeholder="Enter your username" 
+                 name="username" 
+                 id="username" required/>
+        </p>
+        
+        <!-- Password field -->
+        <p>
+            <h4>Password:</h4>
+            <input 
+                 type="password" 
+                 placeholder="Enter your password"
+                 name="password"
+                 id="password" required/>
+        </p>
+        
+        <!-- Forgot password link -->
+        <a href="reset-password.html">Forgot Password</a>
+        
+        <!-- Submit button -->
+        <button type="submit">Login</button>
+    </form>
 </body>
 </html>
