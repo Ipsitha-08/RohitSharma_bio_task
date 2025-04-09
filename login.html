@@ -6,12 +6,9 @@
     <title>Login</title>
 </head>
 <body>
-    <!-- Form that submits to blog.html -->
-    <form action="blog.html" method="POST">
-        <!-- Heading for the form -->
+    <form action="blog.html" method="GET">
         <p><h1>LOGIN</h1></p>
         
-        <!-- Username field -->
         <p>
             <h4>Username:</h4>
             <input 
@@ -20,8 +17,6 @@
                  name="username" 
                  id="username" required/>
         </p>
-        
-        <!-- Password field -->
         <p>
             <h4>Password:</h4>
             <input 
@@ -30,11 +25,8 @@
                  name="password"
                  id="password" required/>
         </p>
-        
-        <!-- Forgot password link -->
         <a href="reset-password.html">Forgot Password</a>
         
-        <!-- Submit button -->
         <button type="submit">Login</button>
     </form>
 </body>
